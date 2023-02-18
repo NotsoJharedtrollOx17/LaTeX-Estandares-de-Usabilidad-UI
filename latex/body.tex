@@ -23,11 +23,13 @@ El diseño de interfaces de usuario consiste generalmente en la realización del
 visual de una aplicación \cite{tutorialspoint-2021,geeksforgeeks-2022,unknown-author-no-dateA},
 mientras que la literatura académica \cite{sharma-2021} complementa la definición
 al incluír la interacción entre el dispositivo y el usuario por medio de técnicas 
-ó comandos para operar el dispositivo, introducir datos, y usar los contenidos provistos.
+ó comandos para operar el dispositivo, introducir datos, y usar los contenidos provistos
+donde la forma concreta de evaluar dichos aspectos se conoce como Usabilidad.
 Como cualquier disciplina, se necesita la disponibilidad de recursos que indiquen exactamente
-que aspectos considerar para el diseño de UI porque cada persona puede argumentar la razón
+que aspectos considerar para el diseño de la Usabilidad de UI porque cada persona puede argumentar la razón
 por la que su propuesta sea la mejor; esto se puede contrarestar con el desarrollo, implementación
-y adoptación de estándares de calidad para tener una formalidad y consistencia de producto y producción.
+y adoptación de estándares de calidad para tener una formalidad y consistencia de producto y producción
+del mismo . % TODO citar a Bevan
 
 \section{Estándares de Calidad}
 Para poder aplicar los estandares de usabilidad existenes, es sumamente importante conocer la
@@ -40,11 +42,10 @@ procesos y vocabulario mútuos que son necesarios para alcanzar las expectativas
 mutuo.
 \begin{figure}[t]
     \centering
-    \includegraphics[scale=0.4]{../images/fig1.JPG}
+    \includegraphics[scale=0.5]{../images/fig1.JPG}
     \caption{Principios fundamentales de los Estándares de Calidad.}
     \label{fig:fig1}    
 \end{figure}
-\\
 
 \subsection{Institución más reconocida: ISO}
 La institución más reconocida y reputable en los estándares de calidad es aquella de la ISO
@@ -52,11 +53,10 @@ La institución más reconocida y reputable en los estándares de calidad es aqu
 no gubernamental que se forma en gran parte por una red globale de cuerpos de estandarización
 donde su principal finalidad es la creación de estándares donde la ISO provee una plataforma
 para desarrollar herramientas por medio de la cooperación y el entendimiento mútuo. % TODO citar al ISO
-\\
 
 \subsubsection{Estándares más populares}
 La siguiente lista es tomada de lo expuesto en % TODO citar a Horielikova
-que muestra los 12 estándares populares en 2019.
+que muestra los 12 estándares populares de la ISO en 2019.
 \begin{enumerate}
     \item ISO 9001; incluye los sistemas de control de calidad donde generamente la version ISO 9001:2015 es la más utilizada ya menciona los requerimientos. % TODO citar ISO 9001
     \item ISO 14001; la revisión ISO 14001:2015 es la más utilizada y especifica los requerimientos y lineamientos para los sistemas de gestión ambiental. % TODO cite ISO 14001
@@ -85,33 +85,9 @@ y (5) Satisfacción.
 Otras definiciones, como la de \cite{guntupalli-no-date} % TODO citarlo
 incluyen que la usabilidad (en el contexto de las interfaces de usuario),
 es compuesta de tres disciplinas del diseño: De interacción, de información y de 
-interfaz, como se muestra en la Fig. \ref{fig:fig1}. El diseño de información destaca
-bastante debido a no ser frecuentemente mencionado como parte del diseño de la usabilidad
-en distintos articulos. Se define como la forma en que se muestran los datos que permiten 
-al usuario discernir si son relevantes para la tarea a realizar; si se desea evaluar la usabilidad,
-es de igual importancia conocer las métricas que nos permitan medir la interacción, la información
-y la interfaz para sus posibles mejoras, sin embargo, las metricas que meciona son de caracter 
-cualitativo y son las mencionadas en la Tabla \ref{tab1}.
-\begin{table}[t]
-    \caption{Métricas cualitativas para crear un diseño de interfaz eficiente.}
-    \begin{center}
-        \begin{tabular}{c c}
-        \hline
-        \textbf{Núm. regla} & \textbf{Descripción}\\
-        \hline
-        1 & Consistencia del programa\\
-        2 & Atajos\\
-        3 & Retroalimentación\\
-        4 & Cuadros de diálogo\\
-        5 & Recuperabilidad\\
-        6 & Función de \emph{undo}\\
-        7 & Control del programa\\
-        8 & Facilidad de memorización\\
-        \hline
-        \end{tabular}
-    \end{center}
-    \label{tab1}
-\end{table}
+interfaz. El diseño de información destaca bastante debido a no ser frecuentemente mencionado como 
+parte del diseño de la usabilidad en distintos articulos y dihco elemento se define como la forma en 
+que se muestran los datos que permiten al usuario discernir si son relevantes para la tarea a realizar.
 \\
 
 Otras consideraciones importantes que \cite{joo-2017}  % TODO citarla
@@ -120,15 +96,12 @@ menciona son aquellas de las areas para el diseño mas apropiado de una UI/UX qu
 (3) Establecer el concepto unificador de diseño como lo es las palabras clave del producto y
 (4) El diseño de la producción, que considera aspectos técnicos tales como la resolución y la tipografía.
 
-\subsection{Metricas de Usabilidad}
-Debido que la usabilidad se define junto a mediciones, es igualmente necesario conocer que métricas son
-importantes. Para la explicación y el análisis de las métricas, utilizaremos aquellas mencionadas en \cite{kokol-1995,purchase-2011,hentati-2015} % TODO citar a Hentati et al., Kokol et al. y Hilbert y Redmiles
-debido al nivel de profundidad mostrado en sus explicaciones asi como las evidencias estadísticas
-que refutan la vericidad de las mismas.
-\\
+\subsection{Estándares de calidad ISO en la Usabilidad de UI}
+A pesar de ser un tema extenso, la ISO si nos ofrece una serie de estándares para asegurar
+la calidad de la usabilidad en UI. 
 
-\section{Ejemplo: reddit}
-reddit es una plataforma que le permite a los usuarios crear foros (llamados \emph{subreddits}) y
+\section{Ejemplo: Reddit}
+Reddit es una plataforma que le permite a los usuarios crear foros (llamados \emph{subreddits}) y
 publicar, comentar, compartir y votar contenidos provenientes dentro o fuera de la plataforma.
 \begin{figure}[t]
     \centering
@@ -141,9 +114,13 @@ publicar, comentar, compartir y votar contenidos provenientes dentro o fuera de 
 Es importante destacar que la interfaz a analizar es aquella del \emph{new} reddit (Fig. \ref{fig:fig2}), que es
 más familiar con otras páginas web contemporaneas, mientras que su contraparte de \emph{old}
 reddit es la versión original del sitio, que se caracteríza por ser muy parecida a las paginas
-web de los 90s. Debido a las métricas tan variadas que fueron expuestas anteriormente, se analizará
-la interfaz por medio de tres métricas diferentes.
+web de los 90s.
 \\
+
+Respecto a los estandares de calidad que se pueden encontrar para la aplicación, el único documento pertinente
+que explica de la manera más comprensiva posible son los Lineamientos de la comarca de Reddit % TODO citar Reddit brand guidelines
+provistos en la página oficial de la aplicación; debido a ello, se refiere en lo subsecuente de la investigación
+a este reporte para inferir otros estándares mejor establecidos por la ISO.
 
 \section{Conclusión}
 
